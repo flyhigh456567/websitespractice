@@ -1,18 +1,44 @@
 <!doctype html>
-<html lang="en">
-
+<html lang="zh-Hant">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zao Particle 音造粒子</title>
+<meta name="description" content="音樂文化與體驗 — Bootstrap 靜態首頁。">
+<link href="css/bootstrap.min.css" rel="stylesheet"><link href="css/style.css" rel="stylesheet">
 </head>
-
 <body>
-    <h1>Hello, world!</h1>
-                       <script src="js/bootstrap.min.js"></script>
-                           <h1>Hello, world!</h1>
-                       <script src="js/bootstrap.min.js"></script>
+<header class="site-header navbar container-fluid">
+<a class="brand" href="index.html" aria-label="首頁"><span>Zao Particle</span><strong>音造粒子</strong><small>音樂風格文化體驗</small></a>
+<nav class="desktop-nav d-none d-lg-flex" aria-label="主要導覽">
+<a href="#events"><svg class="nav-icon" viewBox="0 0 32 32" aria-hidden="true"><path d="M4 11h24v17H4z M4 11 3 6l23-4 2 5z M10 5l4 4 M19 3l4 4 M4 18h24"/></svg>活動演出</a>
+<a href="#attractions"><svg class="nav-icon" viewBox="0 0 32 32" aria-hidden="true"><path d="M5 3l20 20-3 3L3 6z M17 25l9-9 M23 25l6 5"/></svg>線下活動地點</a>
+<a href="#food"><svg class="nav-icon" viewBox="0 0 32 32" aria-hidden="true"><path d="M5 13h18v8a8 8 0 0 1-16 0z M23 14h3a4 4 0 0 1 0 8h-3 M4 29h23 M11 3c-3 3 3 3 0 7 M18 3c-3 3 3 3 0 7"/></svg>周邊商店</a>
+<a href="#culture"><svg class="nav-icon" viewBox="0 0 32 32" aria-hidden="true"><path d="M3 12a18 18 0 0 1 26 0L16 28z M16 28V6 M16 28 8 8 M16 28 24 8"/></svg>風格文化體課程</a>
+<a href="#tickets"><svg class="nav-icon" viewBox="0 0 32 32" aria-hidden="true"><path d="M4 7h24v7a3 3 0 0 0 0 6v6H4v-6a3 3 0 0 0 0-6z M20 7v4 M20 14v4 M20 21v5 M9 13h6 M9 19h6"/></svg>諮詢時間</a>
+<a href="#access"><svg class="nav-icon" viewBox="0 0 32 32" aria-hidden="true"><path d="M7 23V8c0-6 18-6 18 0v15z M7 15h18 M16 4v11 M10 29l3-6 M22 29l-3-6 M11 19h1 M20 19h1"/></svg>交通</a>
+</nav>
+<div class="header-actions d-flex align-items-center"><div class="dropdown"><button class="language dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><small>問答Q & A</small>Language</button><ul class="dropdown-menu dropdown-menu-end"><li><a class="dropdown-item" href="index.html">繁體中文</a></li><li><span class="dropdown-item-text">日本語 · 準備中</span></li><li><span class="dropdown-item-text">English · Coming soon</span></li></ul></div><button class="menu-button" data-bs-toggle="offcanvas" data-bs-target="#siteMenu" aria-controls="siteMenu" aria-label="開啟選單"><span class="menu-lines"><i></i><i></i><i></i></span>MENU</button></div>
+</header>
+<main>
+<section class="hero image-slot" aria-label="主視覺圖片預留區">
+<!-- 圖片替換：填入 src 並移除 hidden；建議 1920 × 850。 -->
+<img class="slot-image" src="" alt="主視覺" hidden>
+<div class="hero-title"><p>Zao Particle</p><h1>音造粒子</h1><span>音 樂 風 格 體 驗</span></div>
+<span class="placeholder-label">MAIN VISUAL / 圖片預留區</span><a href="#pickup" class="scroll-cue">SCROLL<span></span></a>
+</section>
+<section class="pickup-section container-fluid" id="pickup" aria-labelledby="pickup-title"><div class="pickup-layout"><div class="section-label"><h2 id="pickup-title">PICK UP</h2><span>情報</span></div><div class="pickup-cards row flex-nowrap g-0">
+<article class="pickup-card col" id="events"><a href="#culture"><div class="card-visual image-slot tone-one"><!-- 圖片替換：填入 src 並移除 hidden。建議 600 × 750。 --><img class="slot-image" src="" alt="傳統文化表演" hidden><span class="image-number">01</span><div class="feature-title"><span>與音樂的邂逅</span><h3>風格|曲風特色</h3><small>Style & musical characteristics</small></div><span class="slot-label">IMAGE PLACEHOLDER</span></div><div class="feature-caption">微觀聲響交織。<span>↗</span></div></a></article>
+<article class="pickup-card col" id="food"><a href="#culture"><div class="card-visual image-slot tone-two"><img class="slot-image" src="" alt="茶道體驗" hidden><span class="image-number">02</span><div class="feature-title"><span>歌曲賞析</span><h3> 電子音樂 </h3><small>The art of EDM</small></div><span class="slot-label">IMAGE PLACEHOLDER</span></div><div class="feature-caption">沉浸放鬆身心。<span>↗</span></div></a></article>
+<article class="pickup-card col" id="attractions"><a href="#culture"><div class="card-visual image-slot tone-three"><img class="slot-image" src="" alt="和服散策體驗" hidden><span class="image-number">03</span><div class="feature-title"><span>いつもと違う、私へ。</span><h3>着物で散策</h3><small>Walking in Kyoto</small></div><span class="slot-label">IMAGE PLACEHOLDER</span></div><div class="feature-caption">換上和服，漫遊京都街道。<span>↗</span></div></a></article>
+<article class="pickup-card col"><a href="#culture"><div class="card-visual image-slot tone-four"><img class="slot-image" src="" alt="京都甜點" hidden><span class="image-number">04</span><div class="feature-title"><span>京都を、味わう。</span><h3>京の甘味</h3><small>A little taste of Kyoto</small></div><span class="slot-label">IMAGE PLACEHOLDER</span></div><div class="feature-caption">用一份甜點，記住旅途。<span>↗</span></div></a></article>
+</div></div></section>
+<section class="intro container text-center" id="culture"><span class="eyebrow">A MOMENT IN KYOTO</span><h2>走進京都，遇見另一種日常。</h2><p>從街角風景到傳統文化，<br>在每一個片刻，發現屬於你的京都故事。</p><a class="text-link" href="#pickup">探索精選體驗 <span>↗</span></a></section>
+<footer class="site-footer container-fluid" id="access"><a href="index.html">UZUMASA KYOTO VILLAGE</a><span>京都文化體驗・靜態版型展示</span><a href="#">BACK TO TOP ↑</a></footer>
+</main>
+<aside class="quick-bar d-flex" id="tickets" aria-label="參觀資訊"><div class="hours"><span>本日の営業時間</span><strong>10:00 – 21:00</strong><small>營業時間為版型示意</small></div><button class="quick-link" data-bs-toggle="modal" data-bs-target="#ticketModal"><span>TICKET</span><small>チケット</small><span class="arrow">⟶</span></button><a href="#events" class="quick-link"><span>SHOW</span><small>ショースケジュール</small><span class="arrow">⟶</span></a></aside>
+<div class="offcanvas offcanvas-end" tabindex="-1" id="siteMenu" aria-labelledby="menuTitle"><div class="offcanvas-header"><h2 class="offcanvas-title" id="menuTitle">EXPLORE KYOTO</h2><button class="btn-close" data-bs-dismiss="offcanvas" aria-label="關閉選單"></button></div><div class="offcanvas-body"><nav class="mobile-menu" aria-label="完整導覽"><a href="#events">イベント・ショー <small>活動與表演 ↗</small></a><a href="#attractions">アトラクション <small>遊園體驗 ↗</small></a><a href="#food">フード・ショップ <small>美食與購物 ↗</small></a><a href="#culture">文化体験・着付 <small>文化與和服體驗 ↗</small></a><a href="#tickets">営業時間・料金 <small>參觀資訊 ↗</small></a><a href="#access">交通アクセス <small>交通資訊 ↗</small></a></nav></div></div>
+<div class="modal fade" id="ticketModal" tabindex="-1" aria-labelledby="ticketTitle" aria-hidden="true"><div class="modal-dialog modal-dialog-centered"><div class="modal-content"><div class="modal-header"><h2 class="modal-title fs-5" id="ticketTitle">TICKET / 參觀資訊</h2><button class="btn-close" data-bs-dismiss="modal" aria-label="關閉"></button></div><div class="modal-body"><p>此頁為靜態切版展示，尚未提供線上購票。</p><p class="mb-0">正式營業時間、票價與購票連結可於此區更新。</p></div></div></div></div>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script>document.querySelectorAll('.mobile-menu a').forEach(function(link){link.addEventListener('click',function(){bootstrap.Offcanvas.getInstance(document.getElementById('siteMenu')).hide();});});</script>
 </body>
 </html>
