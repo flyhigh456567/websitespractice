@@ -1,0 +1,13 @@
+/* 預設情況下（小螢幕），外層維持單欄 */
+.custom-grid-wrapper {
+    display: block;
+}
+
+/* 當螢幕尺寸超過 1900px 時，讓兩組圖文各自獨立的 .row 變成一排兩組並排 */
+@media (min-width: 1900px) {
+    .custom-grid-wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* 建立兩個等寬欄位 */
+        gap: 30px; /* 兩組圖文之間的間距 */
+    }
+}
